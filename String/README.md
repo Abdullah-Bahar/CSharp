@@ -37,6 +37,8 @@ SolutionRoot/
 
 > Kullanım olarak Interpolation (`$""`) tercih edilir.
 
+<br>
+
 ![1. Proje](img/project-1.png)
 
 ### **II.** String Methodları
@@ -57,6 +59,8 @@ SolutionRoot/
 | `Split()` / `Join()`                 | String ayırma ve birleştirme                            |
 | `Trim()` / `TrimStart()` / `TrimEnd()` | Başındaki ve sonundaki boşlukları temizleme             |
 
+<br>
+
 ![2. Proje](img/project-2.png)
 
 ### **III.** String Kopyalama
@@ -69,6 +73,8 @@ SolutionRoot/
 
 > string referans tipidir ama immutable olduğu için kopyalama her zaman beklenen şekilde referans paylaşımı yaratmaz.
 
+<br>
+
 ![3. Proje](img/project-3.png)
 
 ### **IV.** Methoda String Parametre Verilmesi
@@ -80,6 +86,8 @@ SolutionRoot/
 - Referans ve Immutable davranış analizi
 
 > `ref` veya `out` kullanıldığında string’in immutable yapısı değişmez; ama değişkenin referansının yeniden yönlendirilmesine izin verilir.
+
+<br>
 
 ![4. Proje](img/project-4.png)
 
@@ -99,6 +107,8 @@ SolutionRoot/
 | `Remove()`     | Belirli karakterleri siler                |
 | `Clear()`      | Tüm içeriği temizler                      |
 
+<br>
+
 ![alt text](img/project-5.png)
 
 ### **VI.** String ve Char Dizileri
@@ -110,6 +120,8 @@ SolutionRoot/
 
 > string immutable olduğu için `kelime[0] = 'X'` gibi bir işlem hata verir.
 Değişiklik için önce `char[]`’e çevrilmesi gerekir.
+
+<br>
 
 ![6. Proje](image.png)
 
@@ -127,6 +139,8 @@ Değişiklik için önce `char[]`’e çevrilmesi gerekir.
 | `String.Compare()`       | İki string karşılaştırılır                     |
 | `string.Concat / string.Join()`  | String birleştirme işlemi                      |
 | `string.Equals()`        | Eşitlik kontrolü, case-sensitive / insensitive |
+
+<br>
 
 ![7. Proje](img/project-7.png)
 
