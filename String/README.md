@@ -123,7 +123,7 @@ Değişiklik için önce `char[]`’e çevrilmesi gerekir.
 
 <br>
 
-![6. Proje](image.png)
+![6. Proje](img/project-6.png)
 
 ### **VII.** String Manipülasyon
 ---
